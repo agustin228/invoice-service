@@ -1,10 +1,10 @@
-package org.binar.filmservice;
+package org.binar.invoiceservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FilmserviceApplicationTests {
+class InvoiceserviceApplicationTests {
 
 	@Test
 	void contextLoads() {

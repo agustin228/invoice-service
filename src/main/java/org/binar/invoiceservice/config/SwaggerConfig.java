@@ -1,4 +1,4 @@
-package org.binar.filmservice.config;
+package org.binar.invoiceservice.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -12,7 +12,7 @@ import java.util.List;
 
 public class SwaggerConfig {
     @Bean
-    public OpenAPI demoAPI(@Value("REST API Film Microservice for Bioskop API ") String appDescription,
+    public OpenAPI demoAPI(@Value("REST API Invoice Microservice for Bioskop API ") String appDescription,
                            @Value("v1.0.0") String appVersion){
         Server serverLocal = new Server();
         serverLocal.setUrl("https://filmservice-production-36c0.up.railway.app");
@@ -22,7 +22,7 @@ public class SwaggerConfig {
 
         return new OpenAPI()
                 .info(new Info()
-                        .title("Film Microservice Endpoint")
+                        .title("Invoice Microservice Endpoint")
                         .description(appDescription)
                         .version(appVersion)
                         .termsOfService("http://swagger.io/terms")

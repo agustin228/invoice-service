@@ -1,6 +1,6 @@
-package org.binar.filmservice.repository;
+package org.binar.invoiceservice.repository;
 
-import org.binar.filmservice.model.Film;
+import org.binar.invoiceservice.model.Film;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

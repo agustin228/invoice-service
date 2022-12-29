@@ -1,4 +1,4 @@
-package org.binar.filmservice.model;
+package org.binar.invoiceservice.model;
 
 
 import lombok.AllArgsConstructor;

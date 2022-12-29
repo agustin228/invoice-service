@@ -1,13 +1,13 @@
-package org.binar.filmservice;
+package org.binar.invoiceservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FilmserviceApplication {
+public class InvoiceserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(org.binar.filmservice.FilmserviceApplication.class, args);
+		SpringApplication.run(InvoiceserviceApplication.class, args);
 	}
 
 }

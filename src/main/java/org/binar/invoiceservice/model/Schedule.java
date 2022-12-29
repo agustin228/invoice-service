@@ -1,4 +1,4 @@
-package org.binar.filmservice.model;
+package org.binar.invoiceservice.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 
@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.Date;
 
 @Data
 @NoArgsConstructor
