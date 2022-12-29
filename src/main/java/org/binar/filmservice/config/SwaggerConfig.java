@@ -15,7 +15,7 @@ public class SwaggerConfig {
     public OpenAPI demoAPI(@Value("REST API Film Microservice for Bioskop API ") String appDescription,
                            @Value("v1.0.0") String appVersion){
         Server serverLocal = new Server();
-        serverLocal.setUrl("http://localhost:8080/");
+        serverLocal.setUrl("https://filmmicroservice-production.up.railway.app");
         List<Server> listOfServer = new ArrayList<>();
         listOfServer.add(serverLocal);
 
